@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<RegisterMeRequest>
+  <DesiredUserName></DesiredUserName>
+  <Passkey></Passkey>
+  <FullName></FullName>
+  <Country></Country>
+  <State></State>
+  <City></City>
+  <Address></Address>
+  <Email></Email>
+  <MobileNo></MobileNo>
+  <AltTelNo></AltTelNo>
+</RegisterMeRequest>

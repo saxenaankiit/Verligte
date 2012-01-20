@@ -1,0 +1,348 @@
+﻿<head>
+    <style type="text/css">
+        .mandatoryStar
+        {
+            color: #FF3300;
+        }
+        #txtTypeOfEvent
+        {
+            width: 350px;
+        }
+        #txtDateOfEvent
+        {
+            
+        }
+        #txtTimeOfEvent
+        {
+            
+        }
+        #txtDaysOfEvent
+        {
+            width: 45px;
+        }
+        #txtCountry
+        {
+            width: 150px;
+        }
+        #txtState
+        {
+            width: 150px;
+        }
+        #txtCity
+        {
+            width: 150px;
+        }
+        #txtAddress
+        {
+            width: 350px;
+        }
+        #txtName
+        {
+            width: 250px;
+        }
+        #txtMobileNo
+        {
+            width: 250px;
+        }
+        #txtEmailId
+        {
+            width: 250px;
+        }
+        #txtAltContactNo
+        {
+            width: 250px;
+        }        
+        #txtBudget
+        {
+            
+        }        
+    </style>
+    <script type="text/javascript">
+        function submitForm() {
+            var txtTypeOfEventValue = document.getElementById("txtTypeOfEvent").value;
+            if (txtTypeOfEventValue != "") {
+                //alert(txtTypeOfEventValue);
+                var txtDateOfEventValue = document.getElementById("txtDateOfEvent").value;
+                if (txtDateOfEventValue != "") {
+                    //alert(txtDateOfEventValue);
+                    var txtTimeOfEventValue = document.getElementById("txtTimeOfEvent").value;
+                    if (txtTimeOfEventValue != "") {
+                        //alert(txtTimeOfEventValue);
+                        var txtDaysOfEventValue = document.getElementById("txtDaysOfEvent").value;
+                        if (txtDaysOfEventValue != "") {
+                            //alert(txtDaysOfEventValue);
+                            var txtCountryValue = document.getElementById("txtCountry").value;
+                            if (txtCountryValue != "") {
+                                //alert(txtCountryValue);
+                                var txtStateValue = document.getElementById("txtState").value;
+                                if (txtStateValue != "") {
+                                    //alert(txtStateValue);
+                                    var txtCityValue = document.getElementById("txtCity").value;
+                                    if (txtCityValue != "") {
+                                        //alert(txtCityValue);
+                                        var txtAddressValue = document.getElementById("txtAddress").value;
+                                        if (txtAddressValue != "") {
+                                            //alert(txtAddressValue);
+                                            var txtNameValue = document.getElementById("txtName").value;
+                                            if (txtNameValue != "") {
+                                                //alert(txtNameValue);
+                                                var txtMobileNoValue = document.getElementById("txtMobileNo").value;
+                                                if (txtMobileNoValue != "") {
+                                                    //alert(txtMobileNoValue);
+                                                    var txtEmailIdValue = document.getElementById("txtEmailId").value;
+                                                    if (txtEmailIdValue != "") {
+                                                        //alert(txtEmailIdValue);
+                                                        var txtAltContactNoValue = document.getElementById("txtAltContactNo").value;
+                                                        //alert(txtAltContactNoValue);
+                                                        var txtBudgetValue = document.getElementById("txtBudget").value;
+                                                        //alert(txtBudgetValue);
+                                                        var txtMessageValue = document.getElementById("txtMessage").value;
+                                                        alert(txtMessageValue);
+                                                    }
+                                                    else {
+                                                        alert("Email Id Value is Blank");
+                                                    }
+                                                }
+                                                else {
+                                                    alert("Mobile Number is Blank");
+                                                }
+                                            }
+                                            else {
+                                                alert("Name is Blank");
+                                            }
+                                        }
+                                        else {
+                                            alert("Address is Blank");
+                                        }
+                                    }
+                                    else {
+                                        alert("City is Blank");
+                                    }
+                                }
+                                else {
+                                    alert("State is Blank");
+                                }
+                            }
+                            else {
+                                alert("Country Value is Blank");
+                            }
+                        }
+                        else {
+                            alert("Days Of Event is Blank");
+                        }
+                    }
+                    else {
+                        alert("Time Of Event is Blank");
+                    }
+                }
+                else {
+                    alert("Date Of Event is Blank");
+                }
+            }
+            else {
+                alert("Type Of Event is Blank");
+            }
+        }
+
+        function resetForm() {
+            document.getElementById("txtTypeOfEvent").value = "";
+            document.getElementById("txtDateOfEvent").value = "";
+            document.getElementById("txtTimeOfEvent").value = "";
+            document.getElementById("txtDaysOfEvent").value = "";
+            document.getElementById("txtCountry").value = "";
+            document.getElementById("txtState").value = "";
+            document.getElementById("txtCity").value = "";
+            document.getElementById("txtAddress").value = "";
+            document.getElementById("txtName").value = "";
+            document.getElementById("txtMobileNo").value = "";
+            document.getElementById("txtEmailId").value = "";
+            document.getElementById("txtAltContactNo").value = "";
+            document.getElementById("txtBudget").value = "";
+            document.getElementById("txtMessage").value = "";
+        }
+    </script>
+</head>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+    <br />
+    Kindly fill in the form with appropriate data so that we can quote our rates easily and quickly.
+    <br /> <br />
+    <i><span class="mandatoryStar">*</span> marked fields are mandatory</i>
+    <br /> <br />
+    <form action="http://truvisionstudios.blogspot.com/p/truvision-studios.html" name="frmQoute" method="post">
+        <table>
+            <tbody>
+                 <tr>
+                    <td>Type of Event (Wedding, Birthday Party, Get-Together Party, Meetings, Surveys, Concert etc.) <span class="mandatoryStar">*</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="txtTypeOfEvent" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Date of Event <span class="mandatoryStar">*</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="txtDateOfEvent" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                 <tr>
+                    <td>Time of Event <span class="mandatoryStar">*</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="txtTimeOfEvent" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Number of Days of Event <span class="mandatoryStar">*</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="txtDaysOfEvent" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Venue / Place of Event</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Country <span class="mandatoryStar">*</span></td>
+                                <td>
+                                    <input id="txtCountry" type="text" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>State <span class="mandatoryStar">*</span></td>
+                                <td>
+                                    <input id="txtState" type="text" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>City <span class="mandatoryStar">*</span></td>
+                                <td>
+                                    <input id="txtCity" type="text" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Address <span class="mandatoryStar">*</span></td>
+                                <td>
+                                    <input id="txtAddress" type="text" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Contact Person's Name <span class="mandatoryStar">*</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="txtName" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Mobile Number <span class="mandatoryStar">*</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="txtMobileNo" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                 <tr>
+                    <td>Email ID <span class="mandatoryStar">*</span></td>
+                </tr>
+                 <tr>
+                    <td>
+                        <input id="txtEmailId" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Alternate Contact Number</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="txtAltContactNo" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Tentative Budget (in Indian Rupees / US Dollars $)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="txtBudget" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Message or Note or Comment</td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea name="txtMessage" rows="8" cols="40"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                     <table>
+                        <tr>
+                            <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                            <td>
+                                <input id="btnSubmit" type="button" value="Send Details" onclick="submitForm()" />
+                            </td>
+                            <td>&nbsp; &nbsp; &nbsp;</td>
+                            <td>
+                                <input id="btnReset" type="button" value="Reset" onclick="resetForm()" />
+                            </td>
+                        </tr>
+                    </table>                
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <br />
+</div>

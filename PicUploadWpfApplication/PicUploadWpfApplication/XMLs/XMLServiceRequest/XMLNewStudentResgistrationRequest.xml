@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<NewStudentRegistrationDetails>
+  <Session></Session>
+  <Course></Course>
+  <Year></Year>
+  <ScholarNo></ScholarNo>
+  <BloodGroup></BloodGroup>
+  <DOB></DOB>
+  <FullName></FullName>
+  <FatherOrHusband></FatherOrHusband>
+  <FatherOrHusbandName></FatherOrHusbandName>
+  <Address></Address>
+  <TeleNo></TeleNo>
+  <MobNo></MobNo>
+  <BloodGroup></BloodGroup>  
+</NewStudentRegistrationDetails>
